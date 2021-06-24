@@ -2,7 +2,7 @@
 
 ![PORTFOLIO](/assets/Images/Screenshot_of_Updated_Portfolio.PNG)
 
-https://rmoatman.github.io/RMOatman_Developer_Portfolio/
+https://rmoatman.github.io/Raemarie_Oatman_Portfolio/
 
 ## Description
 ~~~

@@ -1,0 +1,114 @@
+:root {
+    --blue-color: #2c4cb9ff;
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(152,168,220), var(--blue-color));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3rem;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    color: white;
+    font:small-caps;
+}
+
+a {
+    color:black;
+}
+
+a img:hover {
+    transform: scale(1.1);
+}
+
+.headernav {
+    text-align:center;
+    margin-bottom: 3rem;
+}
+
+.headernav-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.headernav-link {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--blue-color);
+}
+
+.menu .is-active > a {
+    background: transparent;
+    color: black;
+}
+
+.menu .is-active:hover > a {
+    color:white;
+}
+
+ul.menu {
+    margin-top: 2rem;
+}
+
+.cell {
+    margin-bottom: 2rem;
+}
+
+.profile_pic {
+    margin-bottom: 3rem;
+    width:250px;
+}
+
+.construction {
+    margin-bottom: 3rem;
+    width:400px;
+}
+
+.bio {
+    display: block;
+    text-align: left;
+    color: black;
+}
+
+.adjectives {
+    display: block;
+    text-align:center;
+}
+
+.languages {
+    display: block;
+    text-align:center;
+}
+
+/* Container holding the image and the text */
+.projectcard {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+  }
+
+/* Bottom right text */
+.bottom-right {
+    background-color: white;
+    outline: black;
+    outline-width: 3px;
+    outline-style:solid;
+    width:50%;
+    position: absolute;
+    bottom: 26px;
+    right: 10px;
+  }
+

@@ -13,6 +13,7 @@ h1 {
     color: white;
     font-weight: 600;
     font-variant: small-caps;
+    font-size: 4rem;
 }
 
 h3 {
@@ -30,14 +31,14 @@ p {
 }
 
 .headernav-subtitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: white;
 }
 
 .headernav-link {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--blue-color);
 }
@@ -99,13 +100,12 @@ a img:hover {
 /* Bottom right text on cells */
 .bottom-right {
     background-color: white;
-    outline: black;
-    outline-width: 3px;
-    outline-style:solid;
+    box-shadow: 0 0 0 1pt black;
     width:50%;
     position: absolute;
     bottom: 26px;
     right: 10px;
+    border-radius: 10px
   }
 
 /* Styles photo on 404 page */
